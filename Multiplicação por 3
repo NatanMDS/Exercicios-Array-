@@ -1,0 +1,29 @@
+public class NoveElementos {
+
+    public static void main(String[] args) {
+
+    	int[] a1 = new int[9];
+    	int i = 0;
+
+    	//a) Preencha o array com o valor do índice de cada elemento
+		for (i = 0; i < 9; i++)
+  			a1[i] = i;
+
+		System.out.print("Elementos no Array:\n");
+		
+		//b) Imprima os elementos do array
+		for(i = 0; i < 9; i++)
+            System.out.print("\nElemento ["+ i +"]: "+ a1[i]);
+		
+		//c) Mulplicar cada elemento do array por 3
+		for(i = 0; i < 9; i++)
+			a1[i] = a1[i] * 3;
+		
+		System.out.print("\n\nMultiplicação de cada elemento por 3:\n");
+		
+		//d) Repetir o item b
+		for(i = 0; i < 9; i++)
+            System.out.print("\nElemento ["+ i +"]: "+ a1[i]);
+           
+    }
+}
